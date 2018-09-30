@@ -37,6 +37,8 @@ export default class BaseComponent {
 				'Accept': 'application/json',
 				'Content-Type': 'application/json'
 			},
+            credentials: 'include',
+
 		}
 
 		if (type == 'POST') {
